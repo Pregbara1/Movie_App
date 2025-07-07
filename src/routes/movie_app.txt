@@ -1,0 +1,13 @@
+movie_app/
+│
+├── backend/
+│   ├── index.js
+│   ├── package.json
+│   ├── .env
+│   └── ... (other backend files)
+│
+├── frontend/
+│   ├── package.json
+│   └── ... (React app files)
+│
+└── README.md
