@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+/* Movie Card Hover Effects */
+.MuiCard-root {
+  transition: transform 0.3s ease;
+}
+
+.MuiCard-root:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+
+/* Netflix-style Background */
+body {
+  background-color: #141414;
+  color: white;
+}
+
+/* Header Styling */
+.MuiTypography-h4 {
+  font-weight: bold !important;
+  color: #e50914 !important; /* Netflix red */
+}
+
